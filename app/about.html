@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About – MedProof</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        margin: 0;
+        background-color: #f9fbff;
+        color: #1a1a1a;
+      }
+
+      nav {
+        background: linear-gradient(to right, #1a3c73, #274b96);
+        color: white;
+        padding: 18px 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .nav-logo {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .nav-logo img {
+        height: 38px;
+      }
+
+      nav h1 {
+        font-size: 1.7em;
+        margin: 0;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 24px;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1em;
+        padding: 8px 12px;
+        border-radius: 6px;
+        transition: 0.3s;
+      }
+
+      nav ul li a:hover {
+        background-color: rgba(255, 255, 255, 0.15);
+        text-decoration: underline;
+      }
+
+      .main {
+        max-width: 1200px;
+        margin: auto;
+        padding: 60px 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+      }
+
+      .section {
+        background: #f2f4f7;
+        padding: 40px;
+        border-radius: 14px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+      }
+
+      .section h2 {
+        font-size: 1.8em;
+        color: #1a3c73;
+        margin-bottom: 20px;
+      }
+
+      .section p {
+        font-size: 1.1em;
+        line-height: 1.75;
+        color: #333;
+      }
+
+      .quote {
+        background: #e9eff7;
+        border-left: 5px solid #1a3c73;
+        padding: 16px 20px;
+        font-style: italic;
+        font-size: 1.05em;
+        margin: 24px 0;
+        color: #222;
+      }
+
+      .step-list {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-top: 20px;
+      }
+
+      .step {
+        display: flex;
+        gap: 16px;
+        align-items: flex-start;
+      }
+
+      .step img {
+        height: 36px;
+      }
+
+      .step p {
+        margin: 0;
+        font-size: 1.05em;
+        color: #222;
+      }
+
+      a {
+        color: #1a3c73;
+        text-decoration: none;
+        font-weight: 500;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      @media (max-width: 768px) {
+        nav ul {
+          gap: 14px;
+        }
+
+        .main {
+          padding: 40px 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-logo">
+        <a
+          href="index.html"
+          style="
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: white;
+          "
+        >
+          <img
+            src="https://cdn.glitch.global/9c42adaa-2f44-4453-a2f7-8aee4ce56f8c/medproof%20logo.png?v=1748456770082"
+            alt="MedProof logo"
+            style="height: 60px; width: 45px"
+          />
+          <h1>MedProof</h1>
+        </a>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="packages.html">Packages</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="jointheteam.html">Join</a></li>
+      </ul>
+    </nav>
+
+    <div class="main">
+      <div class="section">
+        <h2>Who We Are</h2>
+        <p>
+          MedProof was founded by UK medical students who understand the stress
+          and pressure of applying to medicine. We know how it feels to want
+          honest, actionable feedback — and that’s what we deliver.
+        </p>
+        <div class="quote">
+          “We don’t just give you edits — we help you think like an admissions
+          tutor.”
+        </div>
+        <p>
+          We’re here to level the playing field. No matter your background or
+          school, you deserve support from people who’ve done it successfully —
+          and care about your future.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>What Makes Us Different</h2>
+        <p>
+          Unlike generic editing platforms or AI tools, MedProof gives you
+          personalised, human feedback crafted by current or recent medical
+          students. Every comment you receive is thoughtful, strategic, and
+          focused on helping you meet UCAS criteria and stand out.
+        </p>
+        <p>And with a 72-hour turnaround, you won’t be left waiting.</p>
+      </div>
+
+      <div class="section">
+        <h2>How It Works</h2>
+        <div class="step-list">
+          <div class="step">
+            <img
+              src="https://img.icons8.com/color/48/shopping-cart.png"
+              alt="Step 1"
+            />
+            <p><strong>Step 1:</strong> Choose a package and pay securely.</p>
+          </div>
+          <div class="step">
+            <img src="https://img.icons8.com/color/48/email.png" alt="Step 2" />
+            <p>
+              <strong>Step 2:</strong> Receive your unique
+              <strong>MedProof ID</strong> by email within 24 hours.
+            </p>
+          </div>
+          <div class="step">
+            <img
+              src="https://img.icons8.com/color/48/document--v1.png"
+              alt="Step 3"
+            />
+            <p>
+              <strong>Step 3:</strong> Email your structured personal statement
+              (PDF or Word) to
+              <a href="mailto:info.medproof@gmail.com">info.medproof@gmail.com</a> with
+              your ID in the subject.
+            </p>
+          </div>
+          <div class="step">
+            <img
+              src="https://img.icons8.com/color/48/approval.png"
+              alt="Step 4"
+            />
+            <p>
+              <strong>Step 4:</strong> Receive detailed feedback within
+              <strong>72 hours</strong>.
+            </p>
+          </div>
+          <div class="step">
+            <img src="https://img.icons8.com/color/48/redo.png" alt="Step 5" />
+            <p>
+              <strong>Step 5:</strong> On a 3-round package? Send two more
+              drafts with your ID for further review.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
